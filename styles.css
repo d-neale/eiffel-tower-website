@@ -81,8 +81,7 @@ img {
   font-weight: bold;
 }
 
-/* Edited a while later to optimise the mobile experience */
-
+/* Mobile optimizations (added later) */
 @media (max-width: 40rem) {
   #page {
     margin: 0;
