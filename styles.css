@@ -80,3 +80,40 @@ img {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+/* Edited a while later to optimise the mobile experience */
+@media (max-width: 40rem) {
+  #page {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  #left-column,
+  #right-column {
+    float: none;
+    width: 100%;
+  }
+
+  #right-column {
+    text-align: left;
+  }
+
+  img {
+    width: 100%;
+    max-width: 25rem;
+    border-width: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .list ol,
+  .list ul {
+    padding-left: 1.25rem;
+  }
+}
