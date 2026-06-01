@@ -90,6 +90,11 @@ img {
 }
 
 @media (max-width: 40rem) {
+  body {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
   #page {
     margin: 0;
     padding: 1rem;
