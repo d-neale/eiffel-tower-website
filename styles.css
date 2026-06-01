@@ -82,6 +82,13 @@ img {
 }
 
 /* Edited a while later to optimise the mobile experience */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @media (max-width: 40rem) {
   #page {
     margin: 0;
